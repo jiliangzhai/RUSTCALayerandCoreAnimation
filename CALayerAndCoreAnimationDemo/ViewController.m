@@ -7,8 +7,12 @@
 //
 
 #import "ViewController.h"
+#import "ExamplesTableViewController.h"
+
 
 @interface ViewController ()
+    
+ 
 
 @end
 
@@ -16,12 +20,23 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    ExamplesTableViewController *tc = [[ExamplesTableViewController alloc] init];
+    [self pushViewController:tc animated:YES];
+  
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    
 }
 
 @end
+
+
+
+
+
+
+
+

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  View1.h
 //  CALayerAndCoreAnimationDemo
 //
 //  Created by rust_33 on 16/1/7.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UINavigationController
-
+@interface View1 : UIView
 
 @end
-

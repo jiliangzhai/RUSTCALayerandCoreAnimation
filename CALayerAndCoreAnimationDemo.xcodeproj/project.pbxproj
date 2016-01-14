@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE2A1D351C3FFF0F00D286EF /* panda.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE2A1D341C3FFF0F00D286EF /* panda.jpg */; };
+		DE2A1D381C40000800D286EF /* ExampleViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2A1D371C40000800D286EF /* ExampleViewController1.m */; };
+		DE2A1D3B1C4000CD00D286EF /* ExampleViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2A1D3A1C4000CD00D286EF /* ExampleViewController2.m */; };
+		DE4C13421C4787E300F671EC /* fafan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE4C13411C4787E300F671EC /* fafan.jpg */; };
+		DE4C13441C4787F500F671EC /* gua.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE4C13431C4787F500F671EC /* gua.jpg */; };
+		DE4C13461C47880500F671EC /* shuiren.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE4C13451C47880500F671EC /* shuiren.jpg */; };
+		DE4C13481C47881200F671EC /* yangmi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE4C13471C47881200F671EC /* yangmi.jpg */; };
+		DE5939091C45F19C0039E4F4 /* ExampleViewController4.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5939081C45F19C0039E4F4 /* ExampleViewController4.m */; };
+		DE59390C1C4634200039E4F4 /* ExampleViewController5.m in Sources */ = {isa = PBXBuildFile; fileRef = DE59390B1C4634200039E4F4 /* ExampleViewController5.m */; };
+		DE5EB4571C47D18C00F450DA /* ExamplesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5EB4561C47D18C00F450DA /* ExamplesTableViewController.m */; };
+		DE5EB45B1C47DE2C00F450DA /* ExampleViewController6.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5EB45A1C47DE2C00F450DA /* ExampleViewController6.m */; };
 		DE7310761C3E33DB00FA562C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE7310751C3E33DB00FA562C /* main.m */; };
 		DE7310791C3E33DB00FA562C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE7310781C3E33DB00FA562C /* AppDelegate.m */; };
 		DE73107C1C3E33DB00FA562C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE73107B1C3E33DB00FA562C /* ViewController.m */; };
@@ -15,6 +26,10 @@
 		DE7310841C3E33DB00FA562C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE7310821C3E33DB00FA562C /* LaunchScreen.storyboard */; };
 		DE73108F1C3E33DB00FA562C /* CALayerAndCoreAnimationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE73108E1C3E33DB00FA562C /* CALayerAndCoreAnimationDemoTests.m */; };
 		DE73109A1C3E33DB00FA562C /* CALayerAndCoreAnimationDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE7310991C3E33DB00FA562C /* CALayerAndCoreAnimationDemoUITests.m */; };
+		DE7310AD1C3E373600FA562C /* Layer1.m in Sources */ = {isa = PBXBuildFile; fileRef = DE7310AC1C3E373600FA562C /* Layer1.m */; };
+		DE847A3F1C44CD3A0085E25D /* xinxing.png in Resources */ = {isa = PBXBuildFile; fileRef = DE847A3E1C44CD3A0085E25D /* xinxing.png */; };
+		DE847A411C44CD480085E25D /* bubble.png in Resources */ = {isa = PBXBuildFile; fileRef = DE847A401C44CD480085E25D /* bubble.png */; };
+		DE847A441C44CD790085E25D /* ExampleViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = DE847A431C44CD790085E25D /* ExampleViewController3.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +50,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DE2A1D341C3FFF0F00D286EF /* panda.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = panda.jpg; sourceTree = "<group>"; };
+		DE2A1D361C40000800D286EF /* ExampleViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleViewController1.h; sourceTree = "<group>"; };
+		DE2A1D371C40000800D286EF /* ExampleViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleViewController1.m; sourceTree = "<group>"; };
+		DE2A1D391C4000CD00D286EF /* ExampleViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleViewController2.h; sourceTree = "<group>"; };
+		DE2A1D3A1C4000CD00D286EF /* ExampleViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleViewController2.m; sourceTree = "<group>"; };
+		DE4C13411C4787E300F671EC /* fafan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fafan.jpg; sourceTree = "<group>"; };
+		DE4C13431C4787F500F671EC /* gua.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gua.jpg; sourceTree = "<group>"; };
+		DE4C13451C47880500F671EC /* shuiren.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shuiren.jpg; sourceTree = "<group>"; };
+		DE4C13471C47881200F671EC /* yangmi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yangmi.jpg; sourceTree = "<group>"; };
+		DE5939071C45F19C0039E4F4 /* ExampleViewController4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleViewController4.h; sourceTree = "<group>"; };
+		DE5939081C45F19C0039E4F4 /* ExampleViewController4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleViewController4.m; sourceTree = "<group>"; };
+		DE59390A1C4634200039E4F4 /* ExampleViewController5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleViewController5.h; sourceTree = "<group>"; };
+		DE59390B1C4634200039E4F4 /* ExampleViewController5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleViewController5.m; sourceTree = "<group>"; };
+		DE5EB4551C47D18C00F450DA /* ExamplesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExamplesTableViewController.h; sourceTree = "<group>"; };
+		DE5EB4561C47D18C00F450DA /* ExamplesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExamplesTableViewController.m; sourceTree = "<group>"; };
+		DE5EB4591C47DE2C00F450DA /* ExampleViewController6.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleViewController6.h; sourceTree = "<group>"; };
+		DE5EB45A1C47DE2C00F450DA /* ExampleViewController6.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleViewController6.m; sourceTree = "<group>"; };
 		DE7310711C3E33DB00FA562C /* CALayerAndCoreAnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CALayerAndCoreAnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE7310751C3E33DB00FA562C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DE7310771C3E33DB00FA562C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +83,12 @@
 		DE7310951C3E33DB00FA562C /* CALayerAndCoreAnimationDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CALayerAndCoreAnimationDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE7310991C3E33DB00FA562C /* CALayerAndCoreAnimationDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CALayerAndCoreAnimationDemoUITests.m; sourceTree = "<group>"; };
 		DE73109B1C3E33DB00FA562C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE7310AB1C3E373600FA562C /* Layer1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Layer1.h; sourceTree = "<group>"; };
+		DE7310AC1C3E373600FA562C /* Layer1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Layer1.m; sourceTree = "<group>"; };
+		DE847A3E1C44CD3A0085E25D /* xinxing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xinxing.png; sourceTree = "<group>"; };
+		DE847A401C44CD480085E25D /* bubble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bubble.png; sourceTree = "<group>"; };
+		DE847A421C44CD790085E25D /* ExampleViewController3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleViewController3.h; sourceTree = "<group>"; };
+		DE847A431C44CD790085E25D /* ExampleViewController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleViewController3.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +116,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DE5EB4541C47D0ED00F450DA /* calayer */ = {
+			isa = PBXGroup;
+			children = (
+				DE2A1D361C40000800D286EF /* ExampleViewController1.h */,
+				DE2A1D371C40000800D286EF /* ExampleViewController1.m */,
+				DE2A1D391C4000CD00D286EF /* ExampleViewController2.h */,
+				DE2A1D3A1C4000CD00D286EF /* ExampleViewController2.m */,
+				DE7310AB1C3E373600FA562C /* Layer1.h */,
+				DE7310AC1C3E373600FA562C /* Layer1.m */,
+			);
+			name = calayer;
+			sourceTree = "<group>";
+		};
+		DE5EB4581C47DDEB00F450DA /* UIView封装动画 */ = {
+			isa = PBXGroup;
+			children = (
+				DE847A421C44CD790085E25D /* ExampleViewController3.h */,
+				DE847A431C44CD790085E25D /* ExampleViewController3.m */,
+				DE5EB4591C47DE2C00F450DA /* ExampleViewController6.h */,
+				DE5EB45A1C47DE2C00F450DA /* ExampleViewController6.m */,
+			);
+			name = "UIView封装动画";
+			sourceTree = "<group>";
+		};
 		DE7310681C3E33DB00FA562C = {
 			isa = PBXGroup;
 			children = (
@@ -101,10 +163,15 @@
 		DE7310731C3E33DB00FA562C /* CALayerAndCoreAnimationDemo */ = {
 			isa = PBXGroup;
 			children = (
+				DE5EB4581C47DDEB00F450DA /* UIView封装动画 */,
+				DE5EB4541C47D0ED00F450DA /* calayer */,
+				DE7310A71C3E36C900FA562C /* core animation */,
 				DE7310771C3E33DB00FA562C /* AppDelegate.h */,
 				DE7310781C3E33DB00FA562C /* AppDelegate.m */,
 				DE73107A1C3E33DB00FA562C /* ViewController.h */,
 				DE73107B1C3E33DB00FA562C /* ViewController.m */,
+				DE5EB4551C47D18C00F450DA /* ExamplesTableViewController.h */,
+				DE5EB4561C47D18C00F450DA /* ExamplesTableViewController.m */,
 				DE73107D1C3E33DB00FA562C /* Main.storyboard */,
 				DE7310801C3E33DB00FA562C /* Assets.xcassets */,
 				DE7310821C3E33DB00FA562C /* LaunchScreen.storyboard */,
@@ -117,6 +184,13 @@
 		DE7310741C3E33DB00FA562C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DE4C13471C47881200F671EC /* yangmi.jpg */,
+				DE4C13451C47880500F671EC /* shuiren.jpg */,
+				DE4C13431C4787F500F671EC /* gua.jpg */,
+				DE4C13411C4787E300F671EC /* fafan.jpg */,
+				DE847A401C44CD480085E25D /* bubble.png */,
+				DE847A3E1C44CD3A0085E25D /* xinxing.png */,
+				DE2A1D341C3FFF0F00D286EF /* panda.jpg */,
 				DE7310751C3E33DB00FA562C /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +212,17 @@
 				DE73109B1C3E33DB00FA562C /* Info.plist */,
 			);
 			path = CALayerAndCoreAnimationDemoUITests;
+			sourceTree = "<group>";
+		};
+		DE7310A71C3E36C900FA562C /* core animation */ = {
+			isa = PBXGroup;
+			children = (
+				DE5939071C45F19C0039E4F4 /* ExampleViewController4.h */,
+				DE5939081C45F19C0039E4F4 /* ExampleViewController4.m */,
+				DE59390A1C4634200039E4F4 /* ExampleViewController5.h */,
+				DE59390B1C4634200039E4F4 /* ExampleViewController5.m */,
+			);
+			name = "core animation";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,8 +328,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE847A3F1C44CD3A0085E25D /* xinxing.png in Resources */,
+				DE4C13421C4787E300F671EC /* fafan.jpg in Resources */,
+				DE4C13461C47880500F671EC /* shuiren.jpg in Resources */,
+				DE2A1D351C3FFF0F00D286EF /* panda.jpg in Resources */,
+				DE4C13441C4787F500F671EC /* gua.jpg in Resources */,
 				DE7310841C3E33DB00FA562C /* LaunchScreen.storyboard in Resources */,
+				DE847A411C44CD480085E25D /* bubble.png in Resources */,
 				DE7310811C3E33DB00FA562C /* Assets.xcassets in Resources */,
+				DE4C13481C47881200F671EC /* yangmi.jpg in Resources */,
 				DE73107F1C3E33DB00FA562C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,8 +363,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE73107C1C3E33DB00FA562C /* ViewController.m in Sources */,
+				DE2A1D3B1C4000CD00D286EF /* ExampleViewController2.m in Sources */,
+				DE5939091C45F19C0039E4F4 /* ExampleViewController4.m in Sources */,
+				DE5EB45B1C47DE2C00F450DA /* ExampleViewController6.m in Sources */,
+				DE847A441C44CD790085E25D /* ExampleViewController3.m in Sources */,
 				DE7310791C3E33DB00FA562C /* AppDelegate.m in Sources */,
+				DE7310AD1C3E373600FA562C /* Layer1.m in Sources */,
+				DE2A1D381C40000800D286EF /* ExampleViewController1.m in Sources */,
 				DE7310761C3E33DB00FA562C /* main.m in Sources */,
+				DE5EB4571C47D18C00F450DA /* ExamplesTableViewController.m in Sources */,
+				DE59390C1C4634200039E4F4 /* ExampleViewController5.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +596,7 @@
 				DE7310A01C3E33DB00FA562C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DE7310A11C3E33DB00FA562C /* Build configuration list for PBXNativeTarget "CALayerAndCoreAnimationDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +605,7 @@
 				DE7310A31C3E33DB00FA562C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DE7310A41C3E33DB00FA562C /* Build configuration list for PBXNativeTarget "CALayerAndCoreAnimationDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +614,7 @@
 				DE7310A61C3E33DB00FA562C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

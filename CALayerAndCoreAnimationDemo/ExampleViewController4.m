@@ -18,7 +18,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor colorWithRed:1/255.0 green:51/255.0 blue:124/255.0 alpha:1.0];
+    self.view.backgroundColor =  [UIColor colorWithRed:1/255.0 green:51/255.0 blue:124/255.0 alpha:1.0];
     
     [self layoutUI];
 }
@@ -136,7 +136,7 @@
     keyframeTranslation.keyTimes = @[@0.0,@0.25,@0.75,@1.0];
     //动画计算模式
     keyframeTranslation.calculationMode = kCAAnimationCubic;
-    //添加动画至图层
+    [keyframeTranslation setValue:[NSValue valueWithCGPoint:loation] forKey:@"location"];
     
     return keyframeTranslation;
 }
@@ -151,6 +151,7 @@
     
     keyframePathTranslation.path = path;
     keyframePathTranslation.duration = 5.0;
+    [keyframePathTranslation setValue:[NSValue valueWithCGPoint:location] forKey:@"location"];
     
     return keyframePathTranslation;
 }

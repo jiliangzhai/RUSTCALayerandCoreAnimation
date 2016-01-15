@@ -37,15 +37,15 @@
     imageIndex = 0;
     images = @[image1,image2,image3,image4];
     imageView = [[UIImageView alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    imageView.contentMode=UIViewContentModeScaleAspectFit;
+    imageView.contentMode = UIViewContentModeScaleAspectFit;
     imageView.image = image1;
     [self.view addSubview:imageView];
     
-    UISwipeGestureRecognizer* leftSwipe=[[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(leftSwipe:)];
+    UISwipeGestureRecognizer* leftSwipe = [[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(leftSwipe:)];
     [self.view addGestureRecognizer:leftSwipe];
-    leftSwipe.direction=UISwipeGestureRecognizerDirectionLeft;
-    UISwipeGestureRecognizer* rightSwipe=[[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(rightSwipe:)];
-    rightSwipe.direction=UISwipeGestureRecognizerDirectionRight;
+    leftSwipe.direction = UISwipeGestureRecognizerDirectionLeft;
+    UISwipeGestureRecognizer* rightSwipe = [[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(rightSwipe:)];
+    rightSwipe.direction = UISwipeGestureRecognizerDirectionRight;
     [self.view addGestureRecognizer:rightSwipe];
     
 }
@@ -68,7 +68,7 @@
         options = UIViewAnimationOptionCurveLinear|UIViewAnimationOptionTransitionFlipFromLeft;
     
     [UIView transitionWithView:imageView duration:1.0 options:options animations:^{
-        imageView.image=[self nextImage:next];
+        imageView.image = [self nextImage:next];
     } completion:nil];
 }
 

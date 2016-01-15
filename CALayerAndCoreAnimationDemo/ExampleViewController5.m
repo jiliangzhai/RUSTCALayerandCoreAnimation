@@ -35,15 +35,15 @@
     imageIndex = 0;
     images = @[image1,image2,image3,image4];
     imageView = [[UIImageView alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    imageView.contentMode=UIViewContentModeScaleAspectFit;
+    imageView.contentMode = UIViewContentModeScaleAspectFit;
     imageView.image = image1;
     [self.view addSubview:imageView];
     
-    UISwipeGestureRecognizer* leftSwipe=[[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(leftSwipe:)];
+    UISwipeGestureRecognizer* leftSwipe = [[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(leftSwipe:)];
     [self.view addGestureRecognizer:leftSwipe];
-    leftSwipe.direction=UISwipeGestureRecognizerDirectionLeft;
-    UISwipeGestureRecognizer* rightSwipe=[[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(rightSwipe:)];
-    rightSwipe.direction=UISwipeGestureRecognizerDirectionRight;
+    leftSwipe.direction = UISwipeGestureRecognizerDirectionLeft;
+    UISwipeGestureRecognizer* rightSwipe = [[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(rightSwipe:)];
+    rightSwipe.direction = UISwipeGestureRecognizerDirectionRight;
     [self.view addGestureRecognizer:rightSwipe];
     
 }
@@ -61,12 +61,12 @@
 {
     //初始化转场动画
     CATransition *transition = [[CATransition alloc] init];
-    //transition.type=@"cube";//立方体效果
-    //transition.type=@"oglFlip";//翻转效果
-    transition.type=@"suckEffect";//抽纸效果
+    //transition.type = @"cube";//立方体效果
+    //transition.type = @"oglFlip";//翻转效果
+    transition.type = @"suckEffect";//抽纸效果
     //效果类型
-    //transition.type=@"rippleEffect";//波纹效果
-    //transition.type=@"cameraIrisHollowOpen";//摄像头打开效果
+    //transition.type = @"rippleEffect";//波纹效果
+    //transition.type = @"cameraIrisHollowOpen";//摄像头打开效果
     //以上是私有api，公开api有fade movein push reveal
     
     if (next) {

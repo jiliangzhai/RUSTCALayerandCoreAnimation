@@ -9,11 +9,8 @@
 #import "ExampleViewController3.h"
 
 @interface ExampleViewController3 (){
-    UIImage *heartImage;
     UIImage *bubbleImage;
     UIImageView *bubbleImageView;
-    UIImageView *heartImageView;
-    CATextLayer *textLayer;
     NSInteger count;
 }
 
@@ -26,7 +23,7 @@
     
     self.view.backgroundColor = [UIColor colorWithRed:1/255.0 green:51/255.0 blue:124/255.0 alpha:1.0];
     //self.view.backgroundColor = [UIColor whiteColor];
-    self.navigationController.navigationBarHidden = YES;
+    self.navigationController.navigationBarHidden = NO;
     
     [self layoutUI];
 }
@@ -47,7 +44,6 @@
     bubbleImageView.layer.anchorPoint = CGPointMake(0.2, 0.2);
     
     [self.view addSubview:bubbleImageView];
-    [self.view.layer addSublayer:textLayer];
     [self scaleAnimationWithLayer:bubbleImageView];
     count = 1;
  
@@ -78,7 +74,6 @@
     [UIView animateKeyframesWithDuration:10.0 delay:0 options:UIViewAnimationOptionRepeat|UIViewKeyframeAnimationOptionCalculationModeLinear animations:^{
         [UIView addKeyframeWithRelativeStartTime:0 relativeDuration:0.5 animations:^{
             CATransform3D transform = CATransform3DIdentity;
-            transform.m34 = -1/300;
             CATransform3D rotation = CATransform3DRotate(transform, M_PI, 0, 0, 1);
             CATransform3D scale = CATransform3DScale(rotation, 0.5, 0.5, 0.5);
             imageView.layer.transform = scale;
